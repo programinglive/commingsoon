@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.3](https://github.com/programinglive/comingsoon/compare/v1.0.2...v1.0.3) (2025-12-05)
+
+
+### 📝 Documentation
+
+* add demo link to README and fix release notes format ([c3b41d5](https://github.com/programinglive/comingsoon/commit/c3b41d5cef5a1f1b802f75de280be9bf5f11dfc7))
+
 ### [1.0.2](https://github.com/programinglive/comingsoon/compare/v1.0.1...v1.0.2) (2025-12-05)
 
 

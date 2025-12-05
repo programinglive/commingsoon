@@ -1,6 +1,6 @@
 {
   "name": "@programinglive/comingsoon",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A sleek, terminal-inspired \"Coming Soon\" page with programmer vibes. Features matrix rain effects, typing animations, and a modern dark theme perfect for tech projects.",
   "main": "index.html",
   "bin": {
