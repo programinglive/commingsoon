@@ -42,7 +42,7 @@
   "bugs": {
     "url": "https://github.com/programinglive/comingsoon/issues"
   },
-  "homepage": "https://github.com/programinglive/comingsoon#readme",
+  "homepage": "https://comingsoon.programinglive.com",
   "dependencies": {
     "@programinglive/commiter": "^1.2.8"
   },
