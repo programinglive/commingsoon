@@ -2,6 +2,21 @@
 
 A sleek, terminal-inspired "Coming Soon" page with programmer vibes. Features matrix rain effects, typing animations, and a modern dark theme perfect for tech projects.
 
+## 📦 NPM Installation
+
+Install the package globally or use npx:
+
+```bash
+# Using npx (recommended)
+npx @programinglive/comingsoon init
+
+# Or install globally
+npm install -g @programinglive/comingsoon
+comingsoon init
+```
+
+This will copy all necessary files (index.html, style.css, script.js, netlify.toml) to your current directory.
+
 ## ✨ Features
 
 - 🖥️ **Terminal-style UI** with authentic command-line aesthetic

@@ -134,7 +134,7 @@ function handleFormSubmit() {
 function updateSocialLinks() {
     // Update these with your actual social links
     const links = {
-        github: 'https://github.com/programinglive/commingsoon',
+        github: 'https://github.com/programinglive/comingsoon',
         twitter: 'https://x.com/moszesaeschylus',
         email: 'mailto:mahatma.mahardhika@programinglive.com'
     };

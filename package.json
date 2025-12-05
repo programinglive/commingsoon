@@ -1,8 +1,19 @@
 {
-  "name": "comingsoon",
+  "name": "@programinglive/comingsoon",
   "version": "1.0.1",
   "description": "A sleek, terminal-inspired \"Coming Soon\" page with programmer vibes. Features matrix rain effects, typing animations, and a modern dark theme perfect for tech projects.",
-  "main": "script.js",
+  "main": "index.html",
+  "bin": {
+    "comingsoon": "./cli.js"
+  },
+  "files": [
+    "index.html",
+    "style.css",
+    "script.js",
+    "netlify.toml",
+    "cli.js",
+    "template"
+  ],
   "scripts": {
     "test": "echo \"No tests specified\"",
     "prepare": "husky",
@@ -13,16 +24,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/programinglive/commingsoon.git"
+    "url": "git+https://github.com/programinglive/comingsoon.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "coming-soon",
+    "landing-page",
+    "template",
+    "programmer",
+    "matrix",
+    "terminal",
+    "dark-theme",
+    "netlify"
+  ],
+  "author": "mahatma mahardhika <mahatma.mahardhika@programinglive.com>",
+  "license": "MIT",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/programinglive/commingsoon/issues"
+    "url": "https://github.com/programinglive/comingsoon/issues"
   },
-  "homepage": "https://github.com/programinglive/commingsoon#readme",
+  "homepage": "https://github.com/programinglive/comingsoon#readme",
   "dependencies": {
     "@programinglive/commiter": "^1.2.8"
   },
