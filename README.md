@@ -114,4 +114,4 @@ Feel free to customize and make it your own! This is designed to be easily porta
 
 ---
 
-**Made with ♥ and `<code/>`**
+**Made with ♥ and `<code/>` by @programinglive & mahatma mahardhika**
