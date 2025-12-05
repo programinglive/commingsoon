@@ -134,9 +134,9 @@ function handleFormSubmit() {
 function updateSocialLinks() {
     // Update these with your actual social links
     const links = {
-        github: 'https://github.com/yourusername',
-        twitter: 'https://twitter.com/yourusername',
-        email: 'mailto:your.email@example.com'
+        github: 'https://github.com/programinglive/commingsoon',
+        twitter: 'https://x.com/moszesaeschylus',
+        email: 'mailto:mahatma.mahardhika@programinglive.com'
     };
 
     document.getElementById('github-link').href = links.github;
