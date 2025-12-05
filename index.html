@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,15 @@
     <title>Coming Soon | Under Development</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="matrix-bg" id="matrix-canvas"></div>
-    
+
     <div class="container">
         <div class="terminal-window">
             <div class="terminal-header">
@@ -23,48 +27,48 @@
                 </div>
                 <div class="terminal-title">terminal@developer:~</div>
             </div>
-            
+
             <div class="terminal-body">
                 <div class="code-line">
                     <span class="prompt">$</span>
                     <span class="command">cat status.txt</span>
                 </div>
-                
+
                 <div class="output">
                     <div class="ascii-art">
-  ____                _                 ____                  
- / ___|___  _ __ ___ (_)_ __   __ _   / ___|  ___   ___  _ __  
-| |   / _ \| '_ ` _ \| | '_ \ / _` |  \___ \ / _ \ / _ \| '_ \ 
-| |__| (_) | | | | | | | | | | (_| |   ___) | (_) | (_) | | | |
- \____\___/|_| |_| |_|_|_| |_|\__, |  |____/ \___/ \___/|_| |_|
-                               |___/                            
+                        ____ _ ____
+                        / ___|___ _ __ ___ (_)_ __ __ _ / ___| ___ ___ _ __
+                        | | / _ \| '_ ` _ \| | '_ \ / _` | \___ \ / _ \ / _ \| '_ \
+                        | |__| (_) | | | | | | | | | | (_| | ___) | (_) | (_) | | | |
+                        \____\___/|_| |_| |_|_|_| |_|\__, | |____/ \___/ \___/|_| |_|
+                        |___/
                     </div>
-                    
+
                     <div class="status-info">
                         <p class="typing-text">
-                            <span class="status-label">[STATUS]</span> 
+                            <span class="status-label">[STATUS]</span>
                             <span class="status-value">Building something amazing...</span>
                         </p>
                         <p class="typing-text delay-1">
-                            <span class="status-label">[PROGRESS]</span> 
+                            <span class="status-label">[PROGRESS]</span>
                             <span class="progress-bar">
                                 <span class="progress-fill" id="progress-fill"></span>
                             </span>
                             <span id="progress-percent">0%</span>
                         </p>
                         <p class="typing-text delay-2">
-                            <span class="status-label">[ETA]</span> 
+                            <span class="status-label">[ETA]</span>
                             <span class="status-value">Soon™</span>
                         </p>
                     </div>
                 </div>
-                
+
                 <div class="code-line">
                     <span class="prompt">$</span>
                     <span class="command typing" id="typing-command"></span>
                     <span class="cursor">_</span>
                 </div>
-                
+
                 <div class="social-links">
                     <p class="comment">// Stay connected</p>
                     <div class="links">
@@ -79,19 +83,14 @@
                         </a>
                     </div>
                 </div>
-                
+
                 <div class="notify-section">
                     <p class="comment">// Get notified when we launch</p>
                     <form id="notify-form" class="notify-form">
                         <div class="input-group">
                             <span class="input-prompt">></span>
-                            <input 
-                                type="email" 
-                                id="email-input" 
-                                placeholder="your.email@example.com" 
-                                required
-                                autocomplete="email"
-                            >
+                            <input type="email" id="email-input" placeholder="your.email@example.com" required
+                                autocomplete="email">
                             <button type="submit" class="submit-btn">Subscribe</button>
                         </div>
                         <p class="success-message" id="success-message">✓ Subscribed! We'll notify you soon.</p>
@@ -99,18 +98,23 @@
                 </div>
             </div>
         </div>
-        
+
         <footer class="footer">
             <p class="footer-text">
                 <span class="comment">/* Crafted with </span>
                 <span class="heart">♥</span>
                 <span class="comment"> and </span>
                 <span class="code-tag">&lt;code/&gt;</span>
+                <span class="comment"> by </span>
+                <span class="status-value">@programinglive</span>
+                <span class="comment"> & </span>
+                <span class="status-value">mahatma mahardhika</span>
                 <span class="comment"> */</span>
             </p>
         </footer>
     </div>
-    
+
     <script src="script.js"></script>
 </body>
+
 </html>
