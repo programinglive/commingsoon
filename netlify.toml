@@ -1,0 +1,19 @@
+[build]
+  # No build command needed for static HTML
+  publish = "."
+  
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Enable form submissions (if you want to collect emails through Netlify Forms)
+# To use, add data-netlify="true" to your form in index.html
